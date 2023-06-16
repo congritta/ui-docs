@@ -52,6 +52,12 @@ const config = {
   themeConfig:
   /** @type {import("@docusaurus/preset-classic").ThemeConfig} */
     ({
+      metadata: [
+        {name: 'og:image', content: 'https://ui.congritta.com/poster.jpg'},
+        {name: 'og:image:type', content: 'image/jpeg'},
+        {name: 'og:image:width', content: '1280'},
+        {name: 'og:image:height', content: '800'},
+      ],
       navbar: {
         title: "Congritta UI",
         logo: {
