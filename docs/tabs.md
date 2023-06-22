@@ -20,7 +20,7 @@ into your code
 Example:
 
 ```jsx
-export default MyComponentWidthTabs() {
+export default function MyComponentWidthTabs() {
   const [value, setValue] = useState('apples')
 
   return (

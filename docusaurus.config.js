@@ -76,7 +76,7 @@ const config = {
             position: "left",
             label: "Docs",
           },
-          // {to: '/blog', label: 'News', position: 'left'},
+          {to: "/blog", label: "News", position: "left"},
           {
             href: "https://github.com/search?q=congritta:ui",
             label: "GitHub",

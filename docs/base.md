@@ -62,13 +62,6 @@ Provide these CSS vars to apply some styles. What value to use as var value - yo
     </td>
   </tr>
   <tr>
-    <td><code>--cui-form-label-padding</code></td>
-    <td><code>padding</code></td>
-    <td>
-      Paddings around text of form text labels (.form-label element)
-    </td>
-  </tr>
-  <tr>
     <td><code>--cui-gap-between-inputs</code></td>
     <td><code>gap</code>, <code>margin</code></td>
     <td>

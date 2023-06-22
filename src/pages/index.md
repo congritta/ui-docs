@@ -6,8 +6,6 @@ hide_table_of_contents: true
 
 # Congritta UI
 
-Version: 0.0.1 aplha
-
 ![](/img/logo.svg)
 
 <a class="button button--primary" href="/docs/get-started">Get Started</a>

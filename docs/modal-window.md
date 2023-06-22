@@ -20,7 +20,7 @@ into your code
 Example:
 
 ```jsx
-export default MyComponentWithModalWindow() {
+export default function MyComponentWithModalWindow() {
   const [isModalWindow, setIsModalWindow] = useState(false);
 
   return (

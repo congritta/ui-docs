@@ -20,7 +20,7 @@ into your code
 Example:
 
 ```jsx
-export default MyComponentWidthTimePicker() {
+export default function MyComponentWidthTimePicker() {
   const [value, setValue] = useState([12, 15]); // [hours, minutes]
 
   return (
