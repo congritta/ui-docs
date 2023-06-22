@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://ui.congritta.com/blog</id>
+    <title>Congritta UI Blog</title>
+    <updated>2023-06-23T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://ui.congritta.com/blog"/>
+    <subtitle>Congritta UI Blog</subtitle>
+    <icon>https://ui.congritta.com/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[The First Update]]></title>
+        <id>first-update</id>
+        <link href="https://ui.congritta.com/blog/first-update"/>
+        <updated>2023-06-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The update of some components is released]]></summary>
+        <content type="html"><![CDATA[<p>The update of some components is released</p><h2 class="anchor anchorWithStickyNavbar_P2I5" id="congritta-uibase-v002">@congritta-ui/base v0.0.2<a class="hash-link" href="#congritta-uibase-v002" title="Direct link to heading">​</a></h2><ul><li>Removed <code>.form-label</code> padding. Now this element has no padding;</li><li>Textareas have padding now. Earlier text in textareas was been on element edges;</li><li><code>.fields-wrapper</code> now has 100% width and <code>flex: 1</code> styles so <code>.fields-wrapper</code> always takes 100% of it's parent
+width (or proportional width in flex containers);</li></ul><h2 class="anchor anchorWithStickyNavbar_P2I5" id="congritta-uiselect-v002">@congritta-ui/select v0.0.2<a class="hash-link" href="#congritta-uiselect-v002" title="Direct link to heading">​</a></h2><ul><li>Now type of Select option contents is <code>ReactNode</code> (instead of <code>JSX.Element | string</code>) so you can put numbers, boolean
+and other types as option contents;</li><li>Removed <code>zIndex</code> prop. Now every Select element sets it's own zIndex to <code>999999</code> when opened so other elements on your
+app will not cover select element</li></ul><h2 class="anchor anchorWithStickyNavbar_P2I5" id="congritta-uidatepicker-v002">@congritta-ui/datepicker v0.0.2<a class="hash-link" href="#congritta-uidatepicker-v002" title="Direct link to heading">​</a></h2><ul><li>Fixed providing class names to elements;</li><li>Now every DatePicker element sets it's own zIndex to <code>999999</code> when opened so other elements on your app will not cover
+select element</li></ul><h2 class="anchor anchorWithStickyNavbar_P2I5" id="congritta-uitimepicker-v002">@congritta-ui/timepicker v0.0.2<a class="hash-link" href="#congritta-uitimepicker-v002" title="Direct link to heading">​</a></h2><ul><li>Fixed providing class names to elements;</li><li>Now every TimePicker element sets it's own zIndex to <code>999999</code> when opened so other elements on your app will not cover
+select element</li></ul>]]></content>
+        <author>
+            <name>Alex Congritta</name>
+            <uri>https://congritta.com</uri>
+        </author>
+    </entry>
+</feed>

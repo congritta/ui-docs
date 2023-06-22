@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Congritta UI Blog</title>
+        <link>https://ui.congritta.com/blog</link>
+        <description>Congritta UI Blog</description>
+        <lastBuildDate>Fri, 23 Jun 2023 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[The First Update]]></title>
+            <link>https://ui.congritta.com/blog/first-update</link>
+            <guid>first-update</guid>
+            <pubDate>Fri, 23 Jun 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[The update of some components is released]]></description>
+            <content:encoded><![CDATA[<p>The update of some components is released</p><h2 class="anchor anchorWithStickyNavbar_P2I5" id="congritta-uibase-v002">@congritta-ui/base v0.0.2<a class="hash-link" href="#congritta-uibase-v002" title="Direct link to heading">​</a></h2><ul><li>Removed <code>.form-label</code> padding. Now this element has no padding;</li><li>Textareas have padding now. Earlier text in textareas was been on element edges;</li><li><code>.fields-wrapper</code> now has 100% width and <code>flex: 1</code> styles so <code>.fields-wrapper</code> always takes 100% of it's parent
+width (or proportional width in flex containers);</li></ul><h2 class="anchor anchorWithStickyNavbar_P2I5" id="congritta-uiselect-v002">@congritta-ui/select v0.0.2<a class="hash-link" href="#congritta-uiselect-v002" title="Direct link to heading">​</a></h2><ul><li>Now type of Select option contents is <code>ReactNode</code> (instead of <code>JSX.Element | string</code>) so you can put numbers, boolean
+and other types as option contents;</li><li>Removed <code>zIndex</code> prop. Now every Select element sets it's own zIndex to <code>999999</code> when opened so other elements on your
+app will not cover select element</li></ul><h2 class="anchor anchorWithStickyNavbar_P2I5" id="congritta-uidatepicker-v002">@congritta-ui/datepicker v0.0.2<a class="hash-link" href="#congritta-uidatepicker-v002" title="Direct link to heading">​</a></h2><ul><li>Fixed providing class names to elements;</li><li>Now every DatePicker element sets it's own zIndex to <code>999999</code> when opened so other elements on your app will not cover
+select element</li></ul><h2 class="anchor anchorWithStickyNavbar_P2I5" id="congritta-uitimepicker-v002">@congritta-ui/timepicker v0.0.2<a class="hash-link" href="#congritta-uitimepicker-v002" title="Direct link to heading">​</a></h2><ul><li>Fixed providing class names to elements;</li><li>Now every TimePicker element sets it's own zIndex to <code>999999</code> when opened so other elements on your app will not cover
+select element</li></ul>]]></content:encoded>
+        </item>
+    </channel>
+</rss>

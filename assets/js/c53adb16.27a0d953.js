@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk_congritta_ui_docs=self.webpackChunk_congritta_ui_docs||[]).push([[333],{3769:s=>{s.exports=JSON.parse('{"name":"docusaurus-plugin-content-docs","id":"default"}')}}]);

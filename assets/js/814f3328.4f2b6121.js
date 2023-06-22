@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_congritta_ui_docs=self.webpackChunk_congritta_ui_docs||[]).push([[535],{5641:t=>{t.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"The First Update","permalink":"/blog/first-update"}]}')}}]);
